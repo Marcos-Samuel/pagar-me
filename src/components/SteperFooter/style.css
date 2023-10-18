@@ -1,0 +1,17 @@
+.container-highlighter {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.highlighter {
+  width: 82px;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: #dedee9;
+}
+
+.highlighter-active {
+  background-color: #0e8750;
+}

@@ -1,0 +1,120 @@
+.resume-table {
+  width: auto;
+}
+
+.resume-table thead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-small {
+  min-width: 25vw;
+  width: 100%;
+  height: 51px;
+  margin-bottom: 1px;
+  border-radius: 50px 50px 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+
+  color: #3f3f55;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.table-large {
+  width: 100%;
+  min-width: 38.19vw;
+  height: 51px;
+  margin-bottom: 1px;
+  border-radius: 50px 50px 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+
+  color: #3f3f55;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.resume-table th {
+  color: #3f3f55;
+  font-size: 16px;
+}
+
+.resume-table caption span {
+  border-radius: 0.8rem;
+  padding: 4px 8px;
+  margin-left: 6rem;
+
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.resume-table tr {
+  width: 100%;
+  height: 51px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.resume-table tbody td {
+  font-size: 14px;
+  color: #6e6e85;
+}
+
+.resume-table th,
+.resume-table td {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  padding-left: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  white-space: nowrap;
+  text-align: center;
+}
+
+.resume-table tfoot tr {
+  border-radius: 0 0 50px 50px;
+}
+
+.bottom-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(218, 1, 117, 1);
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration-line: underline;
+}
+.bottom-table a {
+  text-decoration: none;
+  color: #da0175;
+}

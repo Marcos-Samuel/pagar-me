@@ -1,0 +1,143 @@
+.container-full-table {
+  margin-top: 2.576rem;
+  border-radius: 3rem;
+  padding: 0 2.2rem;
+  overflow-y: auto;
+  max-height: 61.8rem;
+  background-color: #fff;
+}
+
+.full-table-2 {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+.full-table-2 thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.full-table-2 tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  color: #747488;
+}
+
+.full-table-2 th {
+  column-span: "2";
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 10px;
+}
+.full-table-2 tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 6rem;
+  column-gap: 0.1rem;
+}
+
+.full-table-2 tr:not(:last-child) {
+  border-bottom: 0.1rem solid #747488;
+}
+
+.full-table-2 td {
+  width: 16rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.full-table-2 td p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #da0175;
+  font-family: Nunito;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.full-table td:nth-child(1) {
+  padding-left: 8px;
+}
+
+.full-table .icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.icon-item p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  z-index: 1;
+}
+.icon-item img {
+  width: 20px;
+  height: 20px;
+}
+.icon-item p {
+  font-family: "Nunito";
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.icon-item p:nth-child(1) {
+  color: #747488;
+}
+.icon-item p:nth-child(2) {
+  color: #ae1100;
+}
+
+.hovered {
+  background-color: white;
+}
+
+.pendente,
+.paga,
+.vencida {
+  padding: 2px 12px;
+  border-radius: 8px;
+}
+
+.pendente {
+  background-color: #fcf6dc;
+  color: #c5a605;
+
+  border-radius: 0.8rem;
+  width: auto;
+}
+
+.paga {
+  background-color: #eef6f6;
+  color: #1fa7af;
+
+  border-radius: 0.8rem;
+  width: auto;
+}
+
+.vencida {
+  background-color: #ffefef;
+  border-radius: 0.8rem;
+  width: auto;
+  color: #971d1d;
+}
+
+.select-tr:hover {
+  background-color: #f7f3f3;
+  border-radius: 0.5rem;
+}

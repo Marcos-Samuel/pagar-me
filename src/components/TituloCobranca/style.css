@@ -1,0 +1,34 @@
+.container-information {
+  width: 25vw;
+  height: 11.1rem;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #3f3f55;
+}
+
+.container-information-content {
+  width: 25vw;
+  height: 11.1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-inforation-content img {
+  margin-right: 0.5rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.image-information {
+  padding-right: 4rem;
+}

@@ -1,0 +1,50 @@
+.confirmation-modal {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 15px;
+}
+.buttons-logout {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}
+.buttons-logout button {
+  width: 50%;
+  height: 22px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.buttons-logout button:first-child {
+  border: 1px solid #dedee9;
+  background: #f8f8f9;
+  color: #0e8750;
+}
+.buttons-logout button:first-child:hover {
+  border: 1px solid #0e8750;
+}
+
+.confirmation-modal p {
+  font-family: "Nunito";
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+}
+.confirmation-modal button {
+  margin-top: 8px;
+}

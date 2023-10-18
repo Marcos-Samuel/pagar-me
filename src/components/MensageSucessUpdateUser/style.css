@@ -1,0 +1,40 @@
+.container-mensage-sucess-up-user {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(2px);
+  z-index: 200;
+}
+
+.container-mensage-sucess-up-user .mensage-item-sucess {
+  width: 600px;
+  height: 512px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+.container-mensage-sucess-up-user .mensage-item-sucess img {
+  width: 104px;
+  height: 104px;
+  flex-shrink: 0;
+}
+.container-mensage-sucess-up-user .mensage-item-sucess p {
+  color: #343447;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+}

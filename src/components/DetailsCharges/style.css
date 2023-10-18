@@ -1,0 +1,91 @@
+.container-details-charges {
+  width: 92.5vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
+  position: fixed;
+  bottom: 0;
+  left: 7.5vw;
+  color: #3f3f55;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-family: Nunito;
+}
+
+.container-details-charges .content-details-charges {
+  width: 600px;
+  border-radius: 30px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 56px;
+}
+
+.content-details-charges img.img-details-close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.content-details-charges .details-charge-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.content-details-charges .details-charge-title h1 {
+  font-family: Montserrat;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 130%; /* 33.8px */
+}
+
+.content-details-charges .details-charge-title img {
+  width: 30px;
+  height: 30px;
+}
+
+.container-details-charges .content-details-charges h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.container-details-charges .content-details-charges span {
+  line-height: 24px;
+}
+
+.container-details-charges .content-details-charges p {
+  color: #000;
+  line-height: 130%; /* 20.8px */
+}
+
+.container-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container-topics-venc-valor,
+.container-topics-id-status {
+  display: flex;
+  gap: 100px;
+}
+
+.container-topics-venc-valor {
+  font-size: 1.8rem;
+}
+
+.content-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

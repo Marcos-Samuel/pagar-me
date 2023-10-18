@@ -1,0 +1,132 @@
+.signup-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: stretch;
+}
+
+.signup-container-left {
+  width: 36%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #f0f0f5;
+  padding: 100px 60px;
+}
+
+.signup-container-rigth {
+  width: 64%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0 60px 0;
+}
+
+.container-main {
+  width: 63%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup-container-rigth form {
+  width: 350px;
+  background-color: #f8f8f9;
+}
+
+.signup-container-rigth p {
+  color: #3f3f55;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.34rem;
+}
+
+.signup-container-rigth a {
+  color: #da0175;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.34rem;
+  text-decoration-line: underline;
+}
+
+.container-finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.finish {
+  width: 400px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #f0f0f5;
+  margin-bottom: 25px;
+}
+
+.finish h2 {
+  margin-top: 20px;
+}
+
+.signup-container-rigth form h1 {
+  color: var(--cinzas-cinza-1, #343447);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 32px;
+}
+
+.signup-container form button {
+  margin: 40px 0 15px 0;
+}
+
+.signup-container-rigth .container-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.signup-container-rigth .container-inputs label {
+  color: #344054;
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.signup-container-rigth .password-toggle {
+  position: absolute;
+  top: 41px;
+  right: 14px;
+}
+.signup-container-rigth .password-toggle img {
+  width: 22px;
+}
+
+.signup-container-rigth form h1 {
+  color: #343447;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 32px;
+}

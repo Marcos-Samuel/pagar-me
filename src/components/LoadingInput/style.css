@@ -1,0 +1,13 @@
+.container-load-input {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.container-load-input img.img-load-input {
+  height: 45px;
+}

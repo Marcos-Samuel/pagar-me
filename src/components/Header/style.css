@@ -1,0 +1,181 @@
+header {
+  width: calc(95vw - 7.5vw);
+  height: 11rem;
+  margin-bottom: 20px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  border-bottom: 2px solid #acd9c5;
+}
+
+.contents-header {
+  width: calc(100% - 7.5vw);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+}
+
+.user-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  color: #0e8750;
+}
+
+.header-info h1 {
+  color: #343447;
+}
+
+.user-info p {
+  margin-right: 10px;
+}
+
+.user-info img {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+}
+.user-info p {
+  font-family: "Nunito";
+  font-size: 18px;
+}
+.circle-info {
+  width: 4.8rem;
+  height: 4.8rem;
+
+  margin-right: 10px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background-color: #dedee9;
+}
+.circle-info span {
+  font-family: Nunito;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.button-edit {
+  position: absolute;
+  right: -25px;
+  top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 8px 15px;
+  color: black;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.user-name {
+  max-width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.button-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-item img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all ease 0.7s;
+}
+
+.button-item img:hover {
+  transform: scale(1.2);
+}
+
+.button-item p {
+  font-family: "Nunito";
+  font-size: 8px;
+  margin: 0;
+}
+.polygon-item {
+  position: absolute;
+  right: 25px;
+  top: -9px;
+}
+
+.text-client,
+h5 {
+  color: #747488;
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-left: 25px;
+  margin-top: 60px;
+}
+
+.text-client span,
+.text-client a {
+  color: #0e8750;
+
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+.separar-title {
+  padding: 0 20px;
+}
+.text-client .sub-title,
+.text-client .separar-title {
+  color: #747488;
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+}

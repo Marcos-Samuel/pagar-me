@@ -1,0 +1,67 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(145, 154, 150, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(2px);
+}
+
+.backdrop form.form-edite-user {
+  width: 380px;
+  padding: 30px;
+  position: relative;
+}
+
+.backdrop img.closer {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.backdrop form h1 {
+  font-size: 1.9rem;
+  margin: 10px;
+}
+
+.backdrop form .container-inputs {
+  margin-top: 10px;
+  gap: 5px;
+  font-size: 1.6rem;
+}
+
+.container-cpf-telefone {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container-cpf-telefone form .container-inputs {
+  width: 50%;
+}
+
+.container-cpf-telefone .container-inputs input {
+  width: 100%;
+}
+
+.erros-inputs input {
+  border: 1px solid #e70000;
+}
+.erros-inputs span {
+  color: #e70000;
+  font-family: Nunito;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}

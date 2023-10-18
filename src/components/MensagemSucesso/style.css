@@ -1,0 +1,32 @@
+.container-mensage {
+  width: 330px;
+  height: 54px;
+  background-color: #c3d4fe;
+  border-radius: 10px;
+  box-shadow: 0px 4px 42px 0px rgba(0, 0, 0, 0.2);
+  font-family: "Nunito";
+  font-size: 14px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.container-mensage .mensage-item {
+  width: 100%;
+  margin: 15px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-mensage .mensage-item img {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.container-mensage .close {
+  margin-left: 30px;
+  width: 24px;
+  height: 24px;
+}

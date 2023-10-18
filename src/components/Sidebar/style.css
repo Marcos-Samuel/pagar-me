@@ -1,0 +1,60 @@
+aside {
+  display: flex;
+  width: 7.5vw;
+}
+
+.sidebar-container {
+  width: 7.5vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f0f0f5;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-content {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.sidebar-content > .sidebar-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: #da0175; */
+  cursor: pointer;
+}
+.sidebar-content > .sidebar-item:nth-child(2) {
+  margin-top: 75px;
+  color: #343447;
+}
+
+.sidebar-content > .sidebar-item:nth-child(3) {
+  margin-top: 75px;
+  color: #343447;
+}
+
+.sidebar-item.active {
+  border-right: 3px solid #da0175;
+  color: #da0175;
+}
+.sidebar-item.active p {
+  color: #da0175;
+}
